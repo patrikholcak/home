@@ -1,0 +1,19 @@
+{
+  "name": "homekit-server",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Homekit devices implementation",
+  "license": "UNLICENSED",
+  "main": "dist/server.js",
+  "dependencies": {
+    "hap-nodejs": "^0.5.1",
+    "hap-server": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^12.11.7",
+    "typescript": "^3.6.4"
+  },
+  "scripts": {
+    "build": "tsc"
+  }
+}
